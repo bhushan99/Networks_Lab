@@ -1,0 +1,9 @@
+As traffic generation rate increases,
+
+1) 	Throughput (Average amount of data bits successfully transmitted per unit time) increases 
+	since more data is transmitted through channel per unit time.
+
+2)	Forwarding Delay increases since number of collisions increase as traffic increases, after collision occurs,
+	involved nodes have to send packet again which increases delay.
+
+3)	Jitter variation cannot be predicted.

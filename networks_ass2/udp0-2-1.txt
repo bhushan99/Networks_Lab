@@ -1,0 +1,2 @@
+2.010102 ARP, Request who-has 10.1.1.2 (ff:ff:ff:ff:ff:ff) tell 10.1.1.1, length 50
+2.019465 ARP, Request who-has 10.1.1.1 (ff:ff:ff:ff:ff:ff) tell 10.1.1.2, length 50

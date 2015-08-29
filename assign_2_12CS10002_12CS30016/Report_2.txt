@@ -1,0 +1,35 @@
+A) 	when we keep interval length fixed and increase packet size,
+1. 	timeFirstTPacket( time when 1st packet was transmitted) remains constant, 
+   	since time required for address resolution is same, does not depend on packet size. 
+2. 	timeLastTPacket( time when last packet was transmitted) increses with increase in packet size,
+	since as packet size increases, time length to transmit for individual packet increases, resulting increase in timeLastTPacket.
+3. 	timeFirstRPacket( time when 1st packet was received) increases with packet size,
+	since as packet size increases, time length to transmit for individual packet increases.
+4. 	timeLastRPacket( time when last packet was received) increases with packet size,
+	since time when last packet was transmitted increases and time length to transmit for individual packet increases.
+5.	delay sum increses with packet size since time length to transmit for individual packet increases.
+6.	total bytes transmitted and received increase with packet size.
+7. 	total no. of packets transmitted and received remains same.
+8.	no packets found lost. 
+9. 	no packet was dropped.
+10. no packet was repeatedly forwarded.
+11.	transmitter throughput and receiver throughput increases with packet size, 
+	since no packet was lost or dropped. 
+
+B)	when we keep packet size fixed and increase interval length,
+1.	timeFirstTPacket( time when 1st packet was transmitted) remains constant, 
+   	since time required for address resolution is same, does not depend on interpacket gap.
+2.	timeLastTPacket( time when last packet was transmitted) increases with increase in interval length,
+	since as interval length increases, time length to transmit for individual packet increases, resulting increase in timeLastTPacket.
+3.	timeFirstRPacket( time when 1st packet was received) remains same with interval length,
+	since interval length does not affect transmission of 1st packet.
+4.	timeLastRPacket( time when last packet was received) increases with interval length,
+	since larger time gap is used between each packet transmission.
+5.	delay sum increses with interval length since interpacket gap increses.
+6.	total bytes transmitted and received decrease as interpacket gap increase.
+7. 	total no. of packets transmitted and received decrease.
+8.	no packets found lost. 
+9. 	no packet was dropped.
+10. no packet was repeatedly forwarded.
+11.	transmitter throughput and receiver throughput decreases as interval length increases, 
+	since no packet was lost or dropped and packets transmitted decrease.
